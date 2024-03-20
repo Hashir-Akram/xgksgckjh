@@ -24,8 +24,7 @@ pipeline {
                            bat 'docker login -u hashirdocker123 -p K7Tk/K$!ziPAb8C docker.io'
 
 }
-                    bat 'docker tag devops-integration:latest hashirdocker123/hashirdocker123repo:v3'
-					bat 'docker 
+                    bat 'docker tag devops-integration:latest hashirdocker123/hashirdocker123repo:v3' 
                    bat 'docker images'
                    bat 'docker push hashirdocker123/hashirdocker123repo:v3'
                 }
